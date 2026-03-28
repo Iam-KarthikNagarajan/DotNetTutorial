@@ -40,8 +40,17 @@
             employee.DisplayCompanyDetails();
             employee.EmployeeDetails();
             employee.EmployeeCompanyDetails();
-            employee.salaryDetails();
+            employee.SalaryDetails();
 
+            Boss fackBookBoss = new Boss(102, "Max", "NewYork", 40000, 2, "FaceBook", "USA");
+            fackBookBoss.DisplayCompanyDetails();
+            fackBookBoss.EmployeeDetails();
+            fackBookBoss.EmployeeCompanyDetails();
+            fackBookBoss.SalaryDetails();
+
+
+            ExternalEmployee externalEmployee = new ExternalEmployee(103, "Max", 50000, 3, "FaceBook", "USA");
+            externalEmployee.ExternalEmployeeDetails();
         }
 
     }

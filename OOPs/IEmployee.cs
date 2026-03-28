@@ -8,6 +8,6 @@ namespace OOPs
 {
     public interface IEmployee
     {
-        public void salaryDetails();
+        public void SalaryDetails();
     }
 }

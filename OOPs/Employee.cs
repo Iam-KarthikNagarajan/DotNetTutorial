@@ -31,7 +31,7 @@ namespace OOPs
             Console.WriteLine($"Employee Name: {EmployeeName}, Company Name: {CompanyName}, Location: {Location}");
         }
 
-        public void salaryDetails()
+        public void SalaryDetails()
         {
             Console.WriteLine($"Employee Name: {EmployeeName}, Salary: {Salary}");
         }
