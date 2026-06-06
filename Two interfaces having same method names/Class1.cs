@@ -24,4 +24,13 @@ namespace Two_interfaces_having_same_method_names
             Console.WriteLine("Method from IInterface2");
         }
     }
+
+    public class Class2 : IInterface1, IInterface2
+    {
+        public void Method() 
+        { 
+            Console.WriteLine("Method from IInterface1");
+        }
+    }
+
 }

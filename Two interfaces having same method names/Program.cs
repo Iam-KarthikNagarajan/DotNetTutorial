@@ -17,6 +17,16 @@ namespace Two_interfaces_having_same_method_names
             var c = new Class1();
             ((IInterface1)c).Method();
             ((IInterface2)c).Method();
+
+
+
+            IEmployee employee = new Employee(101, "Karthik", "EEE", 50000);
+            employee.DisplayEmployeeDetails();
+            //employee.AnnualSalary();
+
+            Employee employeeDetails = (Employee)employee;
+            employeeDetails.AnnualSalary();
+
         }
     }
 }

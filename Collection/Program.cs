@@ -47,6 +47,7 @@ namespace Collection
             //} 
             //#endregion
 
+
             //#region List
             //List<int> list = new List<int>();
             //list.Add(1);
@@ -70,6 +71,7 @@ namespace Collection
             //} 
             //#endregion
 
+
             //#region Hashtable
             //Hashtable hashtable = new Hashtable();
             //hashtable.Add(1, "Karthik");
@@ -89,6 +91,25 @@ namespace Collection
             //foreach (DictionaryEntry item in hashtable)
             //{
             //    Console.WriteLine($"{item.Key} : {item.Value}");
+            //}
+            //Console.WriteLine("--------------------------------");
+
+            //foreach (var item in hashtable.Keys)
+            //{
+            //    Console.WriteLine(hashtable[item]);
+            //}
+            //#endregion
+
+
+            //#region SortedList
+            //SortedList sortedList = new SortedList();
+            //sortedList.Add(3, "Deepak");
+            //sortedList.Add(1, "Karthik");
+            //sortedList.Add(2, "Mani");
+
+            //foreach (var item in sortedList.Keys)
+            //{
+            //    Console.WriteLine(sortedList[item]);
             //} 
             //#endregion
 
@@ -109,9 +130,12 @@ namespace Collection
             //for (int i = 0; i < dictionary.Count; i++)
             //{
             //    Console.WriteLine($"{dictionary.Keys.ElementAt(i)} : {dictionary.Values.ElementAt(i)}");
-            //} 
+            //}
+            //foreach (var item in dictionary.Keys)
+            //{
+            //    Console.WriteLine(dictionary[item]);
+            //}
             //#endregion
-
 
 
             //#region Stack
@@ -127,18 +151,18 @@ namespace Collection
             //#endregion
 
 
-            #region Queue
-            Queue<int> queue = new Queue<int>();
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
-            queue.Enqueue(4);
+            //#region Queue
+            //Queue<int> queue = new Queue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(2);
+            //queue.Enqueue(3);
+            //queue.Enqueue(4);
 
-            Console.WriteLine(queue.Count);
-            Console.WriteLine(queue.Peek());
-            Console.WriteLine(queue.Dequeue());
-            Console.WriteLine(queue.Peek()); 
-            #endregion
+            //Console.WriteLine(queue.Count);
+            //Console.WriteLine(queue.Peek());
+            //Console.WriteLine(queue.Dequeue());
+            //Console.WriteLine(queue.Peek()); 
+            //#endregion
 
 
 

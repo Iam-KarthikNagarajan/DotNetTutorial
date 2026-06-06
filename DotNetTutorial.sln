@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Two_interfaces_having_same_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{516D01C6-4DBC-4E22-87E9-92C28D9509CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Functions", "String_Functions\String_Functions.csproj", "{18C61C90-0CBF-4D6C-8329-BB70D5D1706D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding_Questions", "Coding_Questions\Coding_Questions.csproj", "{FCCB4BCE-665C-4352-94CA-C5B89161D445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{516D01C6-4DBC-4E22-87E9-92C28D9509CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516D01C6-4DBC-4E22-87E9-92C28D9509CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516D01C6-4DBC-4E22-87E9-92C28D9509CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C61C90-0CBF-4D6C-8329-BB70D5D1706D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C61C90-0CBF-4D6C-8329-BB70D5D1706D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C61C90-0CBF-4D6C-8329-BB70D5D1706D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C61C90-0CBF-4D6C-8329-BB70D5D1706D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCB4BCE-665C-4352-94CA-C5B89161D445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCB4BCE-665C-4352-94CA-C5B89161D445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCB4BCE-665C-4352-94CA-C5B89161D445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCB4BCE-665C-4352-94CA-C5B89161D445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
